@@ -66,7 +66,7 @@ When opening an issue, you **MUST** use the provided templates. Issues without t
 Please have a look through the current issues, open and closed to see if your issue has been addressed before. If it's java related, it's most definitely been addressed - In short Use Java 1.8.0
 
 ## Thanks
-Snipper Builds off and utilizes serveral opensource softwares, Without these, L3MON Wouldn't be what it is!
+Snipper Builds off and utilizes serveral opensource softwares, Without these, Snipper Wouldn't be what it is!
  - Inspiration for the project and the basic building blocks for the Android App are based off [AhMyth](https://github.com/AhMyth/AhMyth-Android-RAT) 
  - [express](https://github.com/expressjs/express)
  - [node-geoip](https://github.com/bluesmoon/node-geoip)
