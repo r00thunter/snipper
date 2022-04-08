@@ -40,15 +40,15 @@ A cloud based remote android managment suite, powered by NodeJS
 3. install PM2 
     - `npm install pm2 -g`
 
-4. Download and Extract the latest release from [HERE](https://github.com/D3VL/L3MON/releases/)
+4. Download and Extract the latest release from [HERE](https://github.com/r00thunter/snipper/releases/)
 
 5. In the extracted folder, run these commands
     - `npm install` <- install dependencies
     - `pm2 start index.js` <-- start the script
-    - `pm2 startup` <- to run L3MON on startup
+    - `pm2 startup` <- to run snipper on startup
 
 6. Set a Username & Password
-    1. Stop L3MON `pm2 stop index`
+    1. Stop snipper `pm2 stop index`
     2. Open `maindb.json` in a text editor
     3. under `admin` 
         - set the `username` as plain text
@@ -58,7 +58,7 @@ A cloud based remote android managment suite, powered by NodeJS
 
 7. in your browser navigate to `http://<SERVER IP>:22533`
     
-It's recommended to run L3MON behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+It's recommended to run snipper behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
 ## Notes
 When opening an issue, you **MUST** use the provided templates. Issues without this will not recieve support quickly and will be put to the bottom of the figurative pile.
@@ -76,8 +76,8 @@ Snipper Builds off and utilizes serveral opensource softwares, Without these, Sn
  - [Leaflet](https://leafletjs.com/)
 
 ## Disclaimer
-<b>D3VL Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-L3MON is built for both Educational and Internal use ONLY.</b>
+<b>r00thunter Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+snipper is built for both Educational and Internal use ONLY.</b>
 
 <br>
 <p align="center">Made with ❤️ By <a href="https://youtube.com/r00thunter">r00thunter</a></p>
